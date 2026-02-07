@@ -3,7 +3,7 @@ import { Alert, Platform, ScrollView, StyleSheet, View } from 'react-native';
 import { Button, Text, TextInput, Switch } from 'react-native-paper';
 import api from '../src/services/api';
 
-export default function AltaDirector() {
+export default function AltaCampania() {
   // Estado para el formulario basado en tu JSON de la API
 
   /*

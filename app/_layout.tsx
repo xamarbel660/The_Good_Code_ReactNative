@@ -24,7 +24,7 @@ export default function RootLayout() {
           }}
         />
         <Tabs.Screen
-          name="listadoCampañas"
+          name="listadoCampanias"
           options={{
             title: 'Listado Campañas',
             tabBarIcon: ({ color }) => <MaterialCommunityIcons name="format-list-bulleted" size={28} color={color} />,

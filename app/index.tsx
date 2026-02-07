@@ -12,7 +12,7 @@ export default function Home() {
       <Button style={styles.button} mode="contained" onPress={() => router.push('/listadoDonaciones')}>
         Ver Listado Donaciones
       </Button>
-      <Button style={styles.button} mode="contained" onPress={() => router.push('/listadoCampañas')}>
+      <Button style={styles.button} mode="contained" onPress={() => router.push('/listadoCampanias')}>
         Ver Listado Campañas
       </Button>
     </View>

@@ -1,12 +1,11 @@
+import { CampañaCard } from "@/src/components/CampañaCard";
 import { useFocusEffect } from "expo-router";
 import React, { useCallback, useState } from "react";
 import { Alert, FlatList, Platform, StyleSheet, View } from "react-native";
 import { ActivityIndicator, FAB, Text } from "react-native-paper";
-import { DonacionCard } from "../src/components/DonacionCard";
 import api from "../src/services/api";
-import { CampañaCard } from "@/src/components/CampañaCard";
 
-export default function ListadoCampañas() {
+export default function ListadoCampanias() {
   const [campañas, setCampañas] = useState([]);
   const [loading, setLoading] = useState(true);
 
